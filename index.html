@@ -14,6 +14,7 @@
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Outfit:wght@400;500;600;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
 <body>
@@ -54,7 +55,7 @@
         <div class="hero-image fade-in delay-4">
             <div class="image-wrapper">
                 <!-- Gunakan gambar placeholder profesional -->
-                <img src="nrpaidaa.jpeg" alt="Nurfaida - Profile" id="profile-img">
+                <img src="image/nrpaidaa.jpeg" alt="Nurfaida - Profile" id="profile-img">
                 <div class="glass-overlay"></div>
             </div>
         </div>
@@ -93,17 +94,9 @@
 
     <!-- Skills Section -->
     <section id="skills" class="skills section-padding bg-light">
-        <h2 class="section-title fade-in-scroll">Skills & Expertise</h2>
+        <h2 class="section-title fade-in-scroll">Skills</h2>
         <div class="skills-container">
-            <div class="skill-category fade-in-scroll">
-                <h3>UI/UX Design</h3>
-                <ul class="skill-list">
-                    <li><span class="skill-tag">Figma</span></li>
-                    <li><span class="skill-tag">Wireframing</span></li>
-                    <li><span class="skill-tag">Prototyping</span></li>
-                    <li><span class="skill-tag">User Flow</span></li>
-                </ul>
-            </div>
+
             <div class="skill-category fade-in-scroll delay-1">
                 <h3>Front End Dev</h3>
                 <ul class="skill-list">
@@ -113,12 +106,50 @@
                     <li><span class="skill-tag">Responsive Web Design</span></li>
                 </ul>
             </div>
+
             <div class="skill-category fade-in-scroll delay-2">
                 <h3>Tools</h3>
                 <ul class="skill-list">
-                    <li><span class="skill-tag">Canva</span></li>
-                    <li><span class="skill-tag">CapCut</span></li>
-                    <li><span class="skill-tag">GitHub</span></li>
+                    <li><span class="skill-tag">
+                            <img src="image/figma.png" class="skill-icon">Figma
+                        </span>
+                    </li>
+
+                    <li><span class="skill-tag">
+                            <img src="image/canva.png" class="skill-icon">Canva
+                        </span>
+                    </li>
+
+                    <li><span class="skill-tag">
+                            <img src="image/capcut.png" class="skill-icon">CapCut
+                        </span>
+                    </li>
+
+                    <li><span class="skill-tag">
+                            <img src="image/github.png" class="skill-icon">GitHub
+                        </span>
+                    </li>
+
+                    <li><span class="skill-tag">
+                            <img src="image/vscode.png" class="skill-icon">Visual Studio Code
+                        </span>
+                    </li>
+
+                    <li><span class="skill-tag">
+                            <img src="image/xampp.png" class="skill-icon">Xampp
+                        </span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="skill-category fade-in-scroll delay-3">
+                <h3>Other Skills</h3>
+                <ul class="skill-list">
+                    <li><span class="skill-tag">Microsoft Office</span></li>
+                    <li><span class="skill-tag">Problem Solving</span></li>
+                    <li><span class="skill-tag">Time Management</span></li>
+                    <li><span class="skill-tag">Teamwork</span></li>
+                    <li><span class="skill-tag">Communication</span></li>
                 </ul>
             </div>
         </div>
@@ -135,16 +166,11 @@
                     <!-- UI/UX Project -->
                     <div class="project-card">
                         <div class="project-img">
-                            <img src="Figma-iGudang.png" alt="UI/UX Project Screenshot">
-                            <div class="project-overlay">
-                                <!-- Masukkan link Figma Anda pada atribut href di bawah ini -->
-                                <a href="https://www.figma.com/design/sGDRNNevqAbZPlElIzEBDy/PROYEK-UAS-APS?node-id=11-67&m=dev&t=Df126YjaRrK7gEmO-1"
-                                    target="_blank" class="btn-primary-outline">View di Figma</a>
-                            </div>
+                            <img src="image/Figma-iGudang.png" alt="UI/UX Project Screenshot">
                         </div>
                         <div class="project-info">
                             <span class="project-category">UI/UX Design</span>
-                            <h3>iGudang – Web Based Inventory Management System</h3>
+                            <h3>iGudang–Web Based Inventory Management System</h3>
                             <p>Merancang antarmuka sistem manajemen gudang yang memudahkan pengelolaan stok, data
                                 barang, dan
                                 akses pengguna dengan tampilan yang sederhana, terstruktur, dan user-friendly.</p>
@@ -158,19 +184,13 @@
                     <!-- Front End Project -->
                     <div class="project-card">
                         <div class="project-img">
-                            <img src="Web-SynccClock.png" alt="Front End Project Screenshot">
-                            <div class="project-overlay">
-                                <!-- Masukkan link website SyncClock Anda pada atribut href di bawah ini -->
-                                <a href="https://onlynr-tech.github.io/SyncClock/" target="_blank"
-                                    class="btn-primary-outline">Lihat Demo</a>
-                            </div>
+                            <img src="image/Web-SynccClock.png" alt="Front End Project Screenshot">
                         </div>
                         <div class="project-info">
                             <span class="project-category">Front End Development</span>
                             <h3>Website Aplikasi SyncClock</h3>
                             <p>Mengembangkan antarmuka web untuk aplikasi sinkronisasi waktu real-time dengan desain
-                                futuristik
-                                berbasis dark theme.</p>
+                                futuristik berbasis dark theme.</p>
                             <div class="project-meta">
                                 <span class="role"> Stack: HTML, CSS, JS</span>
                             </div>
@@ -181,7 +201,7 @@
                     <div class="project-card">
                         <div class="project-img">
                             <!-- Ganti dengan gambar proyek Anda lainnya -->
-                            <img src="ParepareSmartReport.png" alt="Proyek Baru Screenshot">
+                            <img src="image/ParepareSmartReport.png" alt="Proyek Baru Screenshot">
                         </div>
                         <div class="project-info">
                             <span class="project-category">UI/UX Bootcamp Project</span>
@@ -203,19 +223,52 @@
 
     <!-- Certificates Section -->
     <section id="certificates" class="certificates section-padding bg-light">
-        <h2 class="section-title fade-in-scroll">Certificates</h2>
-        <div class="cert-container fade-in-scroll">
-            <div class="cert-card">
-                <div class="cert-img-wrapper">
-                    <!-- Ganti src di bawah dengan path gambar sertifikat asli Anda -->
-                    <img src="sertifikat-spcialskill.jpeg" alt="Sertifikat UI/UX Bootcamp" class="cert-img">
-                </div>
-                <div class="cert-details">
-                    <h3>UI/UX Bootcamp – User Interface Design</h3>
-                    <p class="cert-issuer">Special Skill Indonesia</p>
-                    <p class="cert-date">Nov 2025</p>
+        <h2 class="section-title fade-in-scroll">Certificates & Experience</h2>
+
+        <div class="cert-exp-layout fade-in-scroll">
+
+            <!-- LEFT: CERTIFICATE -->
+            <div class="cert-column">
+                <h3 class="sub-title">Certificates</h3>
+
+                <div class="cert-card">
+                    <div class="cert-img-wrapper">
+                        <img src="image/sertifikat-spcialskill.jpeg" class="cert-img">
+                    </div>
+                    <div class="cert-details">
+                        <h3>UI/UX Bootcamp – User Interface Design</h3>
+                        <p class="cert-issuer">Special Skill Indonesia</p>
+                        <p class="cert-date">Nov 2025</p>
+                    </div>
                 </div>
             </div>
+
+            <br>
+
+            <!-- RIGHT: EXPERIENCE -->
+            <div class="exp-column">
+                <h3 class="sub-title">Experience</h3>
+
+                <div class="cert-card">
+                    <div class="exp-images">
+                        <img src="image/gts1.png" class="exp-img">
+                        <img src="image/gts 2.png" class="exp-img">
+                    </div>
+                    <div class="cert-details">
+                        <h3>Panitia SCI Go To School 2025</h3>
+                        <p class="cert-issuer">Study Club Informatika - Divisi Humas</p>
+                        <p class="cert-date">September 2025</p>
+                        <p>
+                        <ul>
+                            <li>Mengajar dasar pembuatan website kepada siswa</li>
+                            <li>Membantu siswa memahami HTML & CSS dasar</li>
+                            <li>Menggunakan metode praktik langsung berbasis proyek</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </section>
 
